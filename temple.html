@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Temple Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h1>🛕 Temple Crowd Monitor</h1>
+    <ul>
+      <li><a href="index.html">Dashboard</a></li>
+      <li><a href="temple.html">Temples</a></li>
+      <li><a href="alerts.html">Alerts</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="card">
+      <h2>Add Temple</h2>
+      <form id="templeForm">
+        <input type="text" id="templeName" placeholder="Temple Name" required>
+        <input type="text" id="templeLocation" placeholder="Location" required>
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Temple List</h2>
+      <ul id="templeList">Loading...</ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
