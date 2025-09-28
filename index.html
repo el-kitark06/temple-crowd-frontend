@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Temple Crowd Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h1>🛕 Temple Crowd Monitor</h1>
+    <ul>
+      <li><a href="index.html">Dashboard</a></li>
+      <li><a href="temple.html">Temples</a></li>
+      <li><a href="alerts.html">Alerts</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="card">
+      <h2>Live Crowd Levels</h2>
+      <canvas id="crowdChart"></canvas>
+    </section>
+
+    <section class="card">
+      <h2>Current Status</h2>
+      <div id="statusMessage">Loading...</div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
