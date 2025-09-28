@@ -1,0 +1,63 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9fafb;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  background: #4a148c;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Layout */
+main {
+  padding: 2em;
+  display: grid;
+  gap: 1.5em;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+button {
+  background: #4a148c;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #6a1b9a;
+}
